@@ -1,7 +1,7 @@
 public class Professor extends Usuario{
 
     Professor(String nome, String curso) {
-        super(nome, curso);
+        super(nome, curso, "Professor");
     }
 
     public void criarTurma(){
