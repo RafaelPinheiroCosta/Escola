@@ -26,7 +26,7 @@ public class Professor extends Usuario{
     public void darFaltas(Aluno aluno, int faltas){
         aluno.receberFaltas(faltas);
 
-        System.out.println("Falta Atribuida com sucesso!!");
+        System.out.println("Faltas Atribuidas com sucesso!!");
     }
     public void reservarSala(String sala){
         super.sala = sala;

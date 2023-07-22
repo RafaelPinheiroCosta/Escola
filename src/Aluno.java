@@ -21,5 +21,11 @@ public class Aluno extends Usuario{
             System.out.println("O aluno já ultrapassou o limite de faltas");
         }
     }
-
+    @Override
+    public void apresentarInformacoes() {
+        super.apresentarInformacoes();
+        System.out.println("Suas informações academicas são:");
+        System.out.println("Nota: " + this.nota);
+        System.out.println("Faltas: " + this.faltas);
+    }
 }
