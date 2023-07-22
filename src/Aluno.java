@@ -3,7 +3,7 @@ public class Aluno {
     int nota;
     int faltas;
 
-    public Aluno() {
+    public Aluno() { kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
     }
 
     public void receberNota(){
