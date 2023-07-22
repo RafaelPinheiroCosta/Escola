@@ -7,11 +7,19 @@ public class Aluno extends Usuario{
         super(nome,curso,"Aluno");
     }
 
-    public void receberNota(){
-
+    public void receberNota(int nota){
+        if(nota<=100) {
+            this.nota = nota;
+        }else{
+            System.out.println("nota inválida, somente são permitidas notas <=100");
+        }
     }
-    public void receberFaltas(){
-
+    public void receberFaltas(int faltas){
+        if(faltas<=120){
+            this.faltas +=faltas;
+        }else{
+            System.out.println("O aluno já ultrapassou o limite de faltas");
+        }
     }
 
 }

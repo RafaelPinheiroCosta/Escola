@@ -6,7 +6,6 @@ public class Usuario {
     String curso;
     String tipoUsuario;
 
-
     public Usuario(String nome,  String curso,  String tipoUsuario) {
         this.nome = nome;
         this.curso = curso;
